@@ -37,4 +37,4 @@ jobs:
         uses: snyk/actions/maven@master
         continue-on-error: true # To make sure that SARIF upload gets called
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SYNK_TOKEN: ${{ secrets.SNYK_TOKEN }}
